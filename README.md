@@ -1,5 +1,5 @@
 # Linux Benchmarking Framework
-This repository contains Bash scripts to automate benchmarking linux machines regarding compute, memory, storage, and network performance.
+This project contains Bash scripts to automate benchmarking linux machines regarding compute, memory, storage, and network performance.
 The following benchmark tools are used to evaluate particular metrics:
 
 | Metric             | Benchmark       | Version |
@@ -9,12 +9,10 @@ The following benchmark tools are used to evaluate particular metrics:
 | Storage throughput | fio (rnd & seq) | 3.28    |
 | Network throughput | Iperf3          | 3.9     |
 
-## Goal
-
 Overall, this project aims at enabling users to make an informed decision 
-whether certain cloud server offers are a good deal or not.
+whether certain virtual private servers (VPS) offers are a good deal or not.
 
-## Repository Content
+## Content
 - Shell scripts in `src/benchmark/` to:
   - perform benchmarks
   - write benchmark results into `.csv` files
@@ -28,7 +26,7 @@ whether certain cloud server offers are a good deal or not.
 ## Benchmarking Results
 
 As an example, the following plot shows the read and write file I/O performance for sequential operations.
-Here, we evaluated virtual private servers (VPS) from different providers.
+Here, we evaluated VPS from different providers.
 
 ![plot-fio-diskseq.jpg](plots/plot-fio-diskseq.jpg)
 
