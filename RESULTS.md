@@ -61,6 +61,7 @@ However, some aspects were not covered:
 - Memory latency
 - Network latency
 - Storage latency
+- Other provider platform features, e.g., virtual private networks, firewalls, snapshot and backup capability, available OS images, etc.
 
 ## Sources
 - Sysbench: https://github.com/akopytov/sysbench
